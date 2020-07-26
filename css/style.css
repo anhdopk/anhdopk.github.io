@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'lato', sans-serif;
+    font-size: 19px;
+    background-color: lavender; 
+}
+.paragraph {
+    text-align: center;
+    word-spacing: 2px;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+.container {
+    line-height: 160%;
+}
+.paragraph2{
+    float: right;
+    margin-bottom: 30px;
+}

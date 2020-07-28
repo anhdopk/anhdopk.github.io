@@ -1,0 +1,93 @@
+
+.block {
+    background-color: red;
+    width: 1000px;
+    height: 400px;
+   
+   display: inline-block;
+   float: left;
+}
+.block1 {
+    display: inline-block;
+    background-color: green;
+    width: 510px;
+    height: 200px;
+}
+.block2 {
+    display: inline-block;
+    background-color: blue;
+    width: 510px;
+    height: 200px; 
+}
+.row {
+    display: flex;
+   flex-direction: column;
+   
+}
+/* .......................................... */
+/* ..............khối 2..................... */
+/* .............................................. */
+.row1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.block3 {
+    background-color: red;
+    width: 1000px;
+    height: 400px;
+    float: left;
+     margin-top: 50px;
+}
+.block4 {
+    background-color: green;
+    width: 500px;
+    height: 200px;
+  
+
+}
+.block5 {
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+   
+}
+/* ..................................... */
+/* ...............khối 3.............. */
+/* ................................... */
+.row2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.block6 {
+    background-color: red;
+    width: 510px;
+    height: 400px;
+}
+.block7 {
+    background-color: green;
+    width: 510px;
+    height: 400px;
+}
+.block8 {
+    background-color: blue;
+    width: 510px;
+    height: 400px;
+}
+/* ................................................. */
+/* ......................khối 4.................. */
+/* ................................................. */
+.row3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+.block9 {
+    width: 500px;
+    height: 400px;
+   margin-right: 15px;
+}

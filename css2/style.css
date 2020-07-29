@@ -1,0 +1,23 @@
+ol {
+    background-image: url(/011zk3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+   
+}
+ol li a{
+    color: white;
+   
+}
+button:hover {
+    transform: scale(4);
+  
+}
+.about-picture img {
+    width: 90%;
+}
+li a {
+   text-decoration: none;
+}

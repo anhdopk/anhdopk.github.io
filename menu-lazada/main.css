@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: lavender;
+  text-rendering: optimizeLegibility;
+}
+.main-nav ul li {
+  list-style: none;
+  text-transform: capitalize;
+}
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.search-logo img {
+  width: 180px;
+  margin: 50px 50px;
+  display: inline;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-top: -95px;
+}
+input[type="text"] {
+  width: 40%;
+  height: 38px;
+  background: #bdc1d3;
+  border: none;
+  outline: none;
+  text-indent: 20px;
+}
+button {
+  background-color: orange;
+  width: 40px;
+  outline: none;
+  border: none;
+  color: white;
+}
+.fa-cart-plus {
+  margin: 10px 0 0px 15px;
+  font-size: 150%;
+}
+/* ...................................... */
+/* .............menu đa cấp............... */
+/* ........................................ */
+.menu ul li {
+    position: relative;
+    padding: 4px;
+    background-clip: content-box;
+
+ 
+   list-style: none;
+}
+.menu ul {
+    background-color: #ecf0f1;
+    width: 14%;
+     
+    
+    
+}
+.menu-box {
+    margin: 80px;
+}
+.menu ul li a {
+    text-decoration: none;
+    line-height: 30px;
+}
+.sub-menu {
+    display: none;
+}
+.menu ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    left: 215px;
+    top: 0;
+   
+}
+
+.sub-menu ul li {
+    width: 150px;
+    background-color: #ecf0f1;
+    padding: 5px;
+    background-clip: content-box;
+}
+.sub-menu ul {
+    height: 267px;
+    width: 100%;
+}
+
+.fa-angle-right {
+    float: right;
+    margin-right: 5px;
+   margin-top: 5px;
+    
+}
+.menu ul  li:hover {
+    background-color: #cac0c0;
+}
+.menu ul li a:hover {
+    color: rgb(226, 151, 11);
+}
+.menu ul li:hover .sub-menu1 ul li:hover {
+    color: orange;
+}
+
+
+
+
+
+.sub-menu1 {
+    display: none;
+}
+.menu ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    left: 217px;
+    top: -30px;
+}
+.sub-menu1 ul li {
+    background-color: #ecf0f1;
+   width: 150px;  
+}
+.sub-menu1 ul {
+    height: 267px;
+    width: 100%;
+}
+
+.sub-menu2 {
+    display: none;
+}
+.menu ul li:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+    left: 217px;
+    top: -58px;
+}
+.sub-menu2 ul li {
+    background-color: #ecf0f1;
+    width: 150px;
+}
+.sub-menu2 ul {
+    height: 267px;
+    width: 100%;
+}
+.sub-menu3 {
+    display: none;
+}
+.menu ul li:hover .sub-menu3 {
+    display: block;
+    position: absolute;
+    left: 217px;
+    top: -88px;
+}
+.sub-menu3 ul {
+    background-color: #ecf0f1;
+    width: 150px;
+    height: 264px;
+}
+/* ...................................... */
+/* ...............menu cấp 3............... */
+/* .......................................... */
+.sub-menu-1 {
+    display: none;
+}
+.hover-me:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+   top: 0;
+}
+.hover-me:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: -42px;
+}
+.sub-menu-2 {
+    display: none;
+}
+.sub-menu-3 {
+    display: none;
+}
+.hover-me:hover .sub-menu-3 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: -80px;
+}
+.sub-menu-4 {
+    display: none;
+}
+.hover-me:hover .sub-menu-4 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: -118px;
+}
+.sub-menu-5 {
+    display: none;
+}
+.hover-me:hover .sub-menu-5 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: -159px;
+}
+
+
+
+
+@keyframes logo {
+    50% {background-color: orange;}
+}
+.logo {
+    animation: logo 1s infinite;
+    border-radius: 15px;
+    padding: 0 8px;
+}
+
+
+
+
+

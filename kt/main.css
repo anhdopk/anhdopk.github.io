@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+}
+header {
+  background-size: cover;
+  background-image: url(https://c.files.bbci.co.uk/48D2/production/_106024681_1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  height: 50vh;
+}
+h1::after {
+  content: " ";
+  display: block;
+  background-color: lightgreen;
+  width: 150px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+h1 {
+  padding: 25px;
+  color: limegreen;
+  text-align: center;
+}
+.about-picture img:hover {
+  transform: scale(0.9);
+  border-radius: 50%;
+}
+
+.about-picture img {
+  transition: all 0.4s linear;
+}
+
+/* ....................... */
+/* ........index1.html........... */
+/* ................................... */
+.image-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.paragraph {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  background-color: lavender;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.row2 {
+  display: flex;
+  justify-content: space-around;
+}
+.about-picture a {
+  text-decoration: none;
+}
+.about-picture img {
+  height: 150px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 5px #636e72;
+}

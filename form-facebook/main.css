@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: #f0f2f5;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.information {
+  width: 60%;
+  margin: 190px;
+}
+.information img {
+  width: 290px;
+}
+h2 {
+  font-size: 2.5rem;
+  width: 440px;
+  font-weight: normal;
+  margin-left: 2.5rem;
+}
+.paragraph {
+  width: 65%;
+}
+input[type="text"],
+input[type="password"] {
+  width: 332px;
+  height: 44px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  outline: none;
+  margin: 15px 0;
+  text-indent: 1.5rem;
+  font-size: 1.7rem;
+}
+.button-1 {
+  background-color: #42b72a;
+  width: 190px;
+  padding: 0 16px;
+  line-height: 4.8rem;
+  border-radius: 6px;
+  border: none;
+  margin-left: 7rem;
+  color: white;
+  font-size: 1.9rem;
+}
+input[type="submit"] {
+  background-color: #1877f2;
+  width: 332px;
+  line-height: 4.8rem;
+  border: none;
+  border-radius: 6px;
+  padding: 0 16px;
+  margin: 10px 0;
+  color: #fffffd;
+  font-size: 2rem;
+  outline: none;
+}
+.forget-pass a {
+  text-decoration: none;
+  color: blue;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.forget-pass {
+  border-bottom: 1px solid #dadde1;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+.text-box {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.4rem;
+
+  text-align: center;
+}
+.text-box b:hover {
+  border-bottom: 1px solid #1f2022;
+}
+.text-box b {
+  color: #1f2022;
+}
+.text-box a {
+  text-decoration: none;
+  width: 24%;
+  margin-top: -2.5rem;
+  margin-right: 21rem;
+  color: #2d2e36;
+}
+.form {
+  width: 40%;
+  background-color: #ffffff;
+  height: 345px;
+  margin-right: 20rem;
+  margin-top: 15rem;
+
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px 3px rgba(0, 0, 0, 0.1);
+}
+/* ..................................................... */
+/* ..................SUB-FORM.............................. */
+/* ...................................................... */
+.sub-form {
+  background-color: #fff;
+  width: 431px;
+  height: 574px;
+  box-shadow: 0 2px 4px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 14rem;
+}
+
+.header-signup {
+  height: 81px;
+  margin-left: 1.6rem;
+}
+.header-signup p {
+  color: #606770;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #dadde1;
+  padding-bottom: 0.8rem;
+}
+input[type="text1"] {
+  width: 190px;
+  height: 4rem;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #dddfe2;
+  text-indent: 15px;
+  margin-left: 1.6rem;
+}
+h1 {
+  font-size: 4rem;
+}
+input[type="phone"] {
+  width: 400px;
+  border: 1px solid #dddfe2;
+  outline: none;
+  height: 40px;
+  border-radius: 7px;
+  text-indent: 15px;
+  margin: 1rem 1.6rem;
+}
+.title-form {
+  color: #606770;
+}
+input[type="newpassword"] {
+  outline: none;
+  border: 1px solid #dddfe2;
+  width: 400px;
+  text-indent: 15px;
+  height: 4rem;
+  margin-left: 1.6rem;
+  margin-bottom: 1rem;
+}
+#date,
+#month,
+#year {
+  width: 120px;
+  height: 36px;
+  border-radius: 7px;
+  margin-left: 1.6rem;
+  outline: none;
+  border: 1px solid #dddfe2;
+ margin-bottom: .8rem;
+}
+.title-form {
+  margin-left: 1.6rem;
+}
+.gender-box {
+  display: flex;
+  flex-direction: row;
+}
+.gender-1 #radio1,
+#radio2,
+#radio3 {
+  position: absolute;
+  height: 36px;
+  margin: 0;
+
+  right: 1rem;
+}
+
+.gender-title {
+  margin-left: 1.6rem;
+  color: #606770;
+  
+}
+
+.gender-1 {
+  width: 120px;
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #ccd0d5;
+  border-radius: 7px;
+  margin-left: 1.6rem;
+  position: relative;
+}
+.ohio {
+  font-size: 1.5rem;
+  line-height: 36px;
+  padding-left: 1rem;
+}
+#option-gender {
+  width: 400px;
+  height: 36px;
+  border: 1px solid #ccd0d5;
+  outline: none;
+  border-radius: 7px;
+  margin-left: 1.6rem;
+  resize: none;
+  margin-top: 1rem;
+ 
+
+}
+textarea {
+  line-height: 36px;
+  text-indent: 1.5rem;
+
+}
+.text2 {
+  color: #606770;
+ 
+  margin: .5rem 0 .3rem 1.6rem;
+}
+.last-text {
+  color: #777;
+  margin-left: 1.6rem;
+}
+.last-button-box {
+  text-align: center;
+ margin: 2rem 0;
+}
+
+
+.button-2 {
+  background-color: #00a400;
+  color: #fcfdee;
+  min-width: 195px;
+  height: 3.6rem;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-shadow: none;
+  outline: none;
+  
+
+}
